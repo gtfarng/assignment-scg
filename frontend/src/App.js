@@ -6,6 +6,7 @@ import Frontend from './Components/Frontend'
 import Index from './Components/Index'
 import Home from './Components/Home'
 import Assignment from './Components/Assignment'
+import Scg from './Components/Scg'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <div>
         <nav><h5>
               <Link to="/"> Home</Link> |
+              <Link to="/scg"> SCG</Link> |
               <Link to="/index"> INDEX</Link> |
               <Link to="/api/"> API</Link> |
               <Link to="/web/"> WEB</Link> |
@@ -29,6 +31,7 @@ function App() {
        </h5> </nav>
 
         <Route path="/" exact component={Home} />
+        <Route path="/scg" exact component={Scg} />
         <Route path="/index/" component={Index} />
         <Route path="/api/" component={Backend} />
         <Route path="/web/" component={Frontend} />
