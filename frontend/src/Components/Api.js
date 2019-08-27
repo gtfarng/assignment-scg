@@ -11,7 +11,7 @@ function Api() {
   return (
     <div className="App">
   <br/>
-      <br/><h1>API</h1>
+      <br/><h1>Place search|Place API(by Google)</h1>
         <br/>
 
 
