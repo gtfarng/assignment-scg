@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link } from "react-router-dom"
 import '../App.css';
 
 function Assignment() {
   return (
     <div className="App"><br/>
-<h3><strong>Backend</strong></h3>
+<h3><Link to="/backend"><strong>Backend</strong></Link></h3>
     <h5>
     - Create a new controller called “SCG”
 <br/>- X, 5, 9, 15, 23, Y, Z - Please create a new function for finding X, Y, Z value
@@ -13,13 +14,17 @@ area and show result by JSON
 <br/>- Please create one small project for Line messaging API(Up to you), contain a flow
 diagram, your code, and database.</h5>
 
-<br/><h3><strong>Frontend</strong></h3>
+
+<br/><h3><Link to="/frontend"><strong>Frontend</strong></Link></h3>
     <h5>
-  -  Create a new router called “SCG”
+    - Create a new router called “<Link to="/scg">SCG</Link>”
+<br/>- X, 5, 9, 15, 23, Y, Z - Please create a new <Link to="/function">function</Link> for finding X, Y, Z value
 <br/>- Please use Bootstrap V4 for CSS
 <br/>- Please create Top bar, body, and footer for every page components
 <br/>- Please create a new page for showing results from your API(1.3)
-<br/>- One simple static page for your CV</h5>
+<br/>- One simple static page for your <Link to="/cv">CV</Link>
+
+</h5>
 
     </div>
   );

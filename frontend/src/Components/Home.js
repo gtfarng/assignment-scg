@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import logo from '../logo.svg';
 
 function Home() {
 
@@ -14,7 +15,9 @@ function Home() {
       <br/><h1>Welcome!!!</h1>
         <br/>
 
+        <img src={logo} className="App-logo" alt="logo" />
 
+        <br/><h5>React.JS (FrontEnd)</h5>
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import React from 'react';
+import Alert from './Alert'
 import '../App.css';
+
 
 function Scg() {
 
 const  home=()=>
    {
-      alert('Welcome to ASSIGNMENT, SCG');
+      alert('Welcome to Assignment, SCG');
 
    }
 home();
@@ -16,9 +18,8 @@ home();
       <br/><h2>Welcome!!!, SCG</h2>
         <br/>
 
-
-<button type="button" class="btn btn-primary btn-lg" onClick={this}>Click me</button>
-
+<Alert/>
+       
 
 
 
