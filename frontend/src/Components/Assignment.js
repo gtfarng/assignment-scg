@@ -21,7 +21,7 @@ diagram, your code, and database.</h5>
 <br/>- X, 5, 9, 15, 23, Y, Z - Please create a new <Link to="/function">function</Link> for finding X, Y, Z value
 <br/>- Please use <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap</a> V4 for CSS
 <br/>- Please create Top bar, body, and footer for every page components
-<br/>- Please create a new page for showing results from your <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a> (1.3) 
+<br/>- Please create a new page for showing <Link to="/render">results</Link> from your <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a> (1.3) 
 <br/>- One simple static page for your <Link to="/about/cv">CV</Link>
 
 </h5>

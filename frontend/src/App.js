@@ -11,6 +11,7 @@ import Cv from './Components/Cv'
 import Resume from './Components/Resume'
 import FUNCTION from './Components/Function'
 import API from './Components/Api'
+import Restaurants from './Components/Restaurants'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Link to="/scg"> SCG</Link> |
               <Link to="/function"> FUNCTION</Link> |
               <Link to="/api"> API</Link> |
+              <Link to="/render"> Render</Link> |
               <Link to="/about/cv"> CV</Link> |
               <Link to="/assignment"> ASSIGNMENT</Link>
 
@@ -43,6 +45,7 @@ function App() {
         <Route path="/backend" component={Backend} />
         <Route path="/frontend" component={Frontend} />
         <Route path="/assignment" component={Assignment} />
+        <Route path="/render" component={Restaurants} />
       </div>
     </Router>
 
