@@ -8,7 +8,7 @@ function Function() {
      {
         alert('Function');
      }
-     index();
+     
   return (
     <div className="App">
   <br/>

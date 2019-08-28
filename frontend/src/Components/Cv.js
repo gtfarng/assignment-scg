@@ -15,7 +15,7 @@ function Cv() {
      {
         alert('WELCOME!!! to CV');
      }
-     index();
+     
   return (
     <div className="App">
   <br/>

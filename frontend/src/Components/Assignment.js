@@ -9,7 +9,7 @@ function Assignment() {
     <h5>
     - Create a new controller called “<a href="https://scg-called.glitch.me/API/scg">SCG</a>”
 <br/>- X, 5, 9, 15, 23, Y, Z - Please create a new <a href="https://function-finding.glitch.me/function/5/9/15/23">function</a> for finding X, Y, Z value
-<br/>- Please use “Place search|Place API(by Google)” for finding all restaurants in Bangsue
+<br/>- Please use “Place search|Place <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a>(by Google)” for finding all restaurants in Bangsue
 area and show result by JSON
 <br/>- Please create one small project for Line messaging API(Up to you), contain a flow
 diagram, your code, and database.</h5>
