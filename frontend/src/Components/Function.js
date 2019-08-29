@@ -4,10 +4,6 @@ import '../App.css';
 
 function Function() {
 
-  const  index=()=>
-     {
-        alert('Function');
-     }
      
   return (
     <div className="App">

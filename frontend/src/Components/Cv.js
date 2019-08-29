@@ -10,11 +10,6 @@ import Works from '../img/work.png'
 import Others from '../img/other.png'
 
 function Cv() {
-
-  const  index=()=>
-     {
-        alert('WELCOME!!! to CV');
-     }
      
   return (
     <div className="App">

@@ -3,10 +3,6 @@ import '../App.css';
 
 function Api() {
 
-  const  index=()=>
-     {
-        alert('API');
-     }
      
   return (
     <div className="App">
