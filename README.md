@@ -10,7 +10,7 @@ git clone https://github.com/gtfarng/assignment-scg
 
 <h3>Backend </h3>
 
-cd assignment-scg/backend
+=> cd assignment-scg/backend
 
 => yarn install && yarn start
 
