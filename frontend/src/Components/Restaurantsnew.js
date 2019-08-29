@@ -12,7 +12,7 @@ class Restaurantsnew extends Component {
             restaurants: []
         }
     }
-
+ // eslint-disable-next-line
     componentDidMount() {
         // console.log('props',this.props)
         this.props.getRestaurants()
@@ -29,7 +29,7 @@ class Restaurantsnew extends Component {
                             <div class="col-sm-4">
                                 
                                 
-                                    <img src={restaurant.image} alt="image" width='350px' height='200px' />
+                                    <img src={restaurant.image} alt="photos" width='350px' height='200px' />
                                     
                             
                             </div>
