@@ -11,7 +11,7 @@ function Assignment() {
 <br/>- X, 5, 9, 15, 23, Y, Z - Please create a new <a href="https://function-finding.glitch.me/function/5/9/15/23">function</a> for finding X, Y, Z value
 <br/>- Please use “Place search|Place <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a>(by Google)” for finding all restaurants in Bangsue
 area and show result by JSON
-<br/>- Please create one small project for Line messaging API(Up to you), contain a flow
+<br/>- Please create one small project for <Link to="/api/LineAPIMessages"> Line messaging API</Link>(Up to you), contain a flow
 diagram, your code, and database.</h5>
 
 
@@ -21,7 +21,7 @@ diagram, your code, and database.</h5>
 <br/>- X, 5, 9, 15, 23, Y, Z - Please create a new <Link to="/function">function</Link> for finding X, Y, Z value
 <br/>- Please use <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap</a> V4 for CSS
 <br/>- Please create Top bar, body, and footer for every page components
-<br/>- Please create a new page for showing <Link to="/render">results</Link> from your <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a> (1.3) 
+<br/>- Please create a new page for showing <Link to="/render">results</Link> from your <a href="https://assignment-scg-backend.glitch.me/api/restaurants/bangsue">API</a> (1.3)
 <br/>- One simple static page for your <Link to="/about/cv">CV</Link>
 
 </h5>

@@ -12,6 +12,7 @@ import Resume from './Components/Resume'
 import FUNCTION from './Components/Function'
 import API from './Components/Api'
 import Restaurants from './Components/Restaurants'
+import LineAPIMessages from './Components/LineAPIMessages'
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/about/cv" exact component={Cv} />
         <Route path="/index/" component={Index} />
         <Route path="/api" component={API} />
+        <Route path="/api/LineAPIMessages" component={LineAPIMessages} />
         <Route path="/web" component={Frontend} />
         <Route path="/backend" component={Backend} />
         <Route path="/frontend" component={Frontend} />
